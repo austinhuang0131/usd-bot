@@ -1,0 +1,31 @@
+{
+  "name": "United States of Discord",
+  "id": "271502744253104128",
+  "sources": {
+    "41661910695_https://wwwnytimescom/pages/politics/indexhtmlpa": {
+      "title": "NYT > Politics",
+      "link": "http://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+      "channel": "402361894280626176"
+    },
+    "24296426787_http://wwwwashingtonpostcom/pb/politics/": {
+      "title": "Politics",
+      "link": "http://feeds.washingtonpost.com/rss/politics",
+      "channel": "402361894280626176"
+    },
+    "71535564796_http://wwwfoxnewscom/": {
+      "title": "FOX News",
+      "link": "http://feeds.foxnews.com/foxnews/latest",
+      "channel": "402361894280626176"
+    },
+    "75402463505_https://wwwnbcbayareacom/news/politics": {
+      "title": "NBC Bay Area - Bay Area Political News, Bay Area Politics",
+      "link": "https://www.nbcbayarea.com/news/politics/?rss=y&embedThumb=y&summary=y",
+      "channel": "402361894280626176"
+    },
+    "27170360093_https://wwwnbcbayareacom/news/topstories": {
+      "title": "NBC Bay Area - Top Stories",
+      "link": "https://www.nbcbayarea.com/news/top-stories/?rss=y&embedThumb=y&summary=y",
+      "channel": "402361894280626176"
+    }
+  }
+}
