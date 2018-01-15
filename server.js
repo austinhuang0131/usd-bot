@@ -34,7 +34,7 @@ bot = new Discord.Client({disabledEvents: ['TYPING_START', 'MESSAGE_DELETE', 'ME
 function login (firstStartup) {
   if (!firstStartup) bot = new Discord.Client({disabledEvents: ['TYPING_START', 'MESSAGE_DELETE', 'MESSAGE_UPDATE']})
 
-  bot.login(config.botSettings.token)
+  bot.login(process.env.DISCORD_TOKEN)
   .catch(err => {
     if (loginAttempts++ >= maxAttempts) throw new Error(`${bot.shard ? 'SH ' + bot.shard.id + ' ' : ''}Discord.RSS failed to login after ${maxAttempts} attempts.`)
     console.log(`${bot.shard ? 'SH ' + bot.shard.id + ' ' : ''}Discord.RSS could not login (${err}), retrying in 60 seconds...`)
