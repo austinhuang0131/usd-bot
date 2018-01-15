@@ -1,0 +1,53 @@
+{
+  "_from": "git+https://github.com/synzen/Discord.RSS.git",
+  "_id": "Discord.RSS@2.0.0",
+  "_inBundle": false,
+  "_location": "/Discord.RSS",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/synzen/Discord.RSS.git",
+    "rawSpec": "https://github.com/synzen/Discord.RSS.git",
+    "saveSpec": "git+https://github.com/synzen/Discord.RSS.git",
+    "fetchSpec": "https://github.com/synzen/Discord.RSS.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/synzen/Discord.RSS.git#2eca575d0a6c563a2ac9d0486c0fe0339a4cab8f",
+  "_spec": "https://github.com/synzen/Discord.RSS.git",
+  "_where": "C:\\Users\\Henry",
+  "author": {
+    "name": "synzen"
+  },
+  "bugs": {
+    "url": "https://github.com/synzen/Discord.RSS/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cloudscraper": "^1.4.1",
+    "discord.js": "^11.2.0",
+    "feedparser": "^2.1.0",
+    "html-to-text": "^3.3.0",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
+    "needle": "^1.6.0",
+    "sqlite3": "^3.1.8"
+  },
+  "deprecated": false,
+  "description": "Discord RSS bot with customizable feeds",
+  "homepage": "https://github.com/synzen/Discord.RSS#readme",
+  "license": "MIT",
+  "main": "server.js",
+  "name": "Discord.RSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synzen/Discord.RSS.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "2.0.0"
+}
