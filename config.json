@@ -6,7 +6,6 @@
     "showUnfiltered": true
   },
   "botSettings": {
-    "token": "process.env.DISCORD_TOKEN",
     "enableCommands": true,
     "prefix": "+",
     "defaultGame": "",
