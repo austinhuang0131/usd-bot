@@ -6,7 +6,7 @@
     "showUnfiltered": true
   },
   "botSettings": {
-    "token": BOT_TOKEN,
+    "token": "secret",
     "enableCommands": true,
     "prefix": "+",
     "defaultGame": "",
