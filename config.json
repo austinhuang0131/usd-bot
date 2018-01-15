@@ -6,7 +6,7 @@
     "showUnfiltered": true
   },
   "botSettings": {
-    "token": "process.env.BOT_TOKEN",
+    "token": process.env.BOT_TOKEN,
     "enableCommands": true,
     "prefix": "+",
     "defaultGame": "",
